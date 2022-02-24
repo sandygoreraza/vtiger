@@ -13,9 +13,6 @@
  * CREATED BY SANDY GORERAZA USING PHPSTORM 2021.3.2
  * Below is a custom Library for creating Entity Module for Vtiger Framework
  * It follows all coding guidlines from https://crmtiger.com/ and https://www.vtiger.com/developers/
- *
- *
- *
  */
 echo '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">';
 
