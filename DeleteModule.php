@@ -24,10 +24,9 @@ if ($module) $module->delete();
 
 $ModuleFolderPath ='modules/'.$Modulename;
 
-
+###INVOKE DELETE OBJECT
 new DeleteFolder($ModuleFolderPath);
 
-//system("rm -rf ".escapeshellarg($ModuleFolderPath));
 
 $filename = 'languages/en_us/'."$Modulename".'.php';
 
