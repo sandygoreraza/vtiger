@@ -252,13 +252,13 @@ if(!$moduleInstanceCustom){
 
 
 #####vtlib API to export language pack as a Zip package which can be used for importing through Module Manager
-//$package = new Vtiger_Package();
-//$package->export(
-//    Vtiger_Module::getInstance($moduleInstance->name),
-//    'test/vtlib',
-//    $moduleInstance->name.''.'_'.'.zip',
-//    false////if you want direct download from the browser set API to true
-//);
+$package = new Vtiger_Package();
+$package->export(
+    Vtiger_Module::getInstance($moduleInstance->name),
+    'test/vtlib',
+   $moduleInstance->name.''.'_'.'.zip',
+   false////if you want direct download from the browser set API to true
+);
 
     echo $moduleInstance->name." is Created";
     echo '</body></html>';
